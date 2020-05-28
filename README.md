@@ -16,7 +16,7 @@ Read more on the docs - https://developer.android.com/guide/topics/ui/shortcuts/
 # Why I'm making this Repo ?
 After searching the topics based Android Shortcuts,I didn't find a complete and clear solution according to my needs.And from reading most of them I'm making this one as a solution to the problem that most of the people face or talk about/ask for help in the forums which is "How can I go to Fragment using Shortcut ?" Well, fragments are attached to an activity.
 
-So to solve this you will need an Activity (Must be in an IntentFilter with intent action MAIN <i>android.intent.action.MAIN</i> and category must be the LAUNCHER <i>android.intent.category.LAUNCHER</i> i.e your LAUNCHER Activity.
+So to solve this you will need an Activity (Must be in an IntentFilter with intent action MAIN <i>android.intent.action.MAIN</i> and category must be the LAUNCHER <i>android.intent.category.LAUNCHER</i>) i.e your LAUNCHER Activity.
 
 # Static Shortcuts
 These are the shortcuts that are created only one time and are static in nature (cannot be changed).To make static shortcuts,you need to make a file in res/xml/shortcuts.xml and then link this file in your AndroidManiest.xml under your LAUNCHER Activity.
