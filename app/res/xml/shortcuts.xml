@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/drawableone"
+        android:shortcutId="Fragment1"
+        android:shortcutShortLabel="@string/fragmentonename">
+
+        <intent
+            android:action="com.example.myandroidapp.FRAG1"
+            android:targetClass="com.example.myandroidapp.OnBoardingActivity"
+            android:targetPackage="com.example.myandroidapp">
+            <extra android:name="FRAG1"
+                android:value="FRAG1"/>
+        </intent>
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/drawbletwo"
+        android:shortcutId="Fragment2"
+        android:shortcutShortLabel="@string/fragmenttwoname">
+
+        <intent
+            android:action="com.example.myandroidapp.FRAG2"
+            android:targetClass="com.example.myandroidapp.OnBoardingActivity"
+            android:targetPackage="com.example.myandroidapp">
+            <extra android:name="FRAG2"
+                android:value="FRAG2"/>
+        </intent>
+    </shortcut>
+    <!-- More Shortcuts Here -->
+</shortcuts>
