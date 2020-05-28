@@ -39,7 +39,7 @@ These are the shortcuts that are created only one time and are static in nature 
         </activity>
  ```
   
-  Check repo :arrow_up:,after this.
+  Check repo for code :arrow_up:,after reading.
   
   If this helped you.Rate me :star2::star2:<br/>
   Regards.
