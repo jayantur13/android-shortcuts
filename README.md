@@ -1,8 +1,11 @@
 # android-shortcuts
-Shortcuts that lands you to an specific activity or fragment to perform a task from outside of an application.Long tap an app to see if it has shortcuts and tap on one to see what it performs.
+Shortcuts that lands you to an specific activity or fragment to perform a task from outside of an application.Long tap an app to see a list of shortcuts.
 
 ## Availability
-App Shortcuts are available from API Level 25 (Android 7.1) and above 
+App Shortcuts are available from API Level 25 (Android 7.1) and above.
+
+## Limitation
+Shortcuts are limited to 4 in number.
 
 ## Types
 We have 3 types of shortcuts available which we can use according to the condition or needs of an application
