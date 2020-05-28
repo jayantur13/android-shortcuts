@@ -4,11 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-
-import java.util.Objects;
 
 public class OnBoardingActivity extends AppCompatActivity {
 
@@ -38,14 +35,17 @@ public class OnBoardingActivity extends AppCompatActivity {
         String FRAG2 = "com.example.myandroidapp.FRAG2"
         if (FRAG1.equals(getIntent().getAction())) {
             Toast.makeText(getApplicationContext(), Objects.requireNonNull(getIntent().getExtras()).getString("FRAG1"),Toast.LENGTH_SHORT).show();
+            //Toast must be FRAG1
             
             sharedPreferences = getApplicationContext().getSharedPreferences(JUMPERKEY, MODE_PRIVATE);
             sharedPrefrencesEditor=sharedPreferences.edit();
             sharedPrefrencesEditor.putString(KEY_JUMP,"frag1");
             sharedPrefrencesEditor.apply();
         }else if (FRAG2.equals(getIntent().getAction())) {
-           Toast.makeText(getApplicationContext(), Objects.requireNonNull(getIntent().getExtras()).getString("FRAG2"),Toast.LENGTH_SHORT).show();
-           
+            Toast.makeText(getApplicationContext(), Objects.requireNonNull(getIntent().getExtras()).getString("FRAG2"),Toast.LENGTH_SHORT).show();
+            //Toast must be FRAG2
+            
+            
             sharedPreferences = getApplicationContext().getSharedPreferences(JUMPERKEY, MODE_PRIVATE);
             sharedPrefrencesEditor=sharedPreferences.edit();
             sharedPrefrencesEditor.putString(KEY_JUMP,"frag2");
