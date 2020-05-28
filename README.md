@@ -41,7 +41,7 @@ These are the shortcuts that are created only one time and are static in nature 
   
   Check repo for code :arrow_up:,after reading.
   
-  -This guide can also be used for Kotlin based android apps.
+  <b>This guide can also be used for Kotlin based android apps.</b>
   
   If this helped you.Rate me :star2::star2:<br/>
   Regards.
