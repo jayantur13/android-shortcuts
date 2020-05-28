@@ -6,10 +6,11 @@ App Shortcuts are available from API Level 25 (Android 7.1) and above
 
 # Types
 We have 3 types of shortcuts available which we can use according to the condition or needs of an application
-
-<b>* Static Shortcuts</b> <i>(covering this one for now)</i>
-<b>* Dynamic Shortcuts</b>
-<b>* Pinned Shortcuts</b>
+<ul>
+<li><b>* Static Shortcuts</b> <i>(covering this one for now)</i></li>
+<li><b>* Dynamic Shortcuts</b></li>
+<li><b>* Pinned Shortcuts</b></li>
+</ul>
 
 Read more on the docs - https://developer.android.com/guide/topics/ui/shortcuts/creating-shortcuts
 
