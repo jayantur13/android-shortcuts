@@ -22,7 +22,7 @@ So to solve this you will need an Activity (Must be in an IntentFilter with inte
 # Static Shortcuts
 These are the shortcuts that are created only one time and are static in nature (cannot be changed).To make static shortcuts,you need to make a file in res/xml/shortcuts.xml and then link this file in your AndroidManiest.xml under your LAUNCHER Activity.
 
-<code>
+'''
    <!-- AndroidManifest.xml -->
    <activity
             android:name=".OnBoardingActivity"
@@ -37,7 +37,7 @@ These are the shortcuts that are created only one time and are static in nature 
             <meta-data android:name="android.app.shortcuts"
                 android:resource="@xml/shortcuts" />
         </activity>
-  </code>
+  '''
   
   Check repo,after this.
   
