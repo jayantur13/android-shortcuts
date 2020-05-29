@@ -1,4 +1,4 @@
-package in.co.vcareforu.cocstatstracker;
+package com.example.myandroidapp;
 
 import android.Manifest;
 import android.content.SharedPreferences;
