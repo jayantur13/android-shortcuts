@@ -56,8 +56,6 @@ Dynamic shortcuts are created when the app runs,it can perform the most recent t
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <meta-data android:name="android.app.shortcuts"
-                android:resource="@xml/shortcuts" />
         </activity>
            <activity
             android:name=".MainActivity"
